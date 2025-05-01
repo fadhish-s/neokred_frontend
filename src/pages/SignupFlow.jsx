@@ -103,7 +103,7 @@ export default function SignupFlow() {
 
   // 5) render
   return (
-    <div className="space-y-4   max-w-md w-full">
+    <div className="space-y-4   max-w-md w-full ">
       <h2 className="text-xl font-semibold text-gray-800">
         <span className="text-blue-600">{idx + 1}&nbsp;</span>
         {label}

@@ -8,7 +8,7 @@ export default function App() {
      <div className="flex flex-col h-screen w-full">
     <BrowserRouter>
       <Header />
-      <div className="w-full h-screen  bg-gray-50 flex items-center justify-center px-4">
+      <div className="w-full h-full bg-gray-50 flex items-center justify-center px-4">
         <Routes>
           <Route index element={<Navigate to="/signup/1" replace />} />
           <Route path="/signup/:step" element={<SignupFlow />} />
